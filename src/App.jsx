@@ -1,5 +1,6 @@
 import Hello from './components/Hello'
 import Fruits from './components/Fruits'
+import ConditionalComponent from './components/ConditionalComponent'
 
 function App() {
   const person = {
@@ -13,6 +14,7 @@ function App() {
       {/* <Hello name="kamal" message="this is a code" emoji="🥵" seats={seats} /> */}
       <Hello person={person} />
       <Fruits />
+      <ConditionalComponent />
     </div>
   )
 }
